@@ -1,0 +1,46 @@
+.header-container{
+    position: absolute ;
+    color: #7600a9;
+    left: 38%;
+    z-index: 20;
+    ul{
+        margin:auto;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 10px;
+        li{
+            cursor: pointer;
+            border-radius: 100px;
+            font-size: 1.3em;
+            background-color: #7600a9;
+            font-family: 'Nunito Sans', sans-serif;
+            padding: 15px;
+            color: white;
+            margin-left: 10px;
+        }
+    }
+}
+.btn{
+    padding: 15px 25px;
+    width: fit-content;
+    border-radius: 100px;
+    color: whitesmoke;
+}
+.btn{
+    background: linear-gradient(270deg, #7600a9, #0c9b24);
+    background-size: 400% 400%;
+    animation: AnimationName 3s ease infinite;
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.btn > a {
+ color: whitesmoke;
+ font-size: 1.3em;
+}
+a{
+    text-decoration:none ;
+}

@@ -1,0 +1,13 @@
+ABOUT US:
+Inspired from 'go green' quote we came up with an idea that will help us make that quote became a living ideal in our society today and impliment it in our way of thinking thus we created this app that will not only help our users monitor their cars but also help us make our environement become healthier 
+
+HOW TO USE:
+This app will help you monitor your car's status, connect to the nearest recharging points,check your cars performance and get a follow up on your charging progress and bill.
+All you need to do is insert your car's type and start cruising
+
+
+TO START YOUR APP CLICK ON THIS BOUTTON
+	
+
+
+START

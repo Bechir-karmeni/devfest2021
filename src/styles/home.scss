@@ -1,0 +1,121 @@
+section{
+    margin-bottom: 50px;
+}
+
+.section-one{
+    height: 100vh;
+    position: relative;
+    
+    .wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    .img-container{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 40em;
+        height: 30em;
+        .leaf{
+            position: absolute;
+            animation:  animateLeaf alternate 5s infinite ease-in-out;
+            width: 15em;
+            height: 15em;
+            top: 20px;
+        }
+        .car{
+            position: absolute;
+            width: 25em;
+            height: 20em;
+        }
+    }
+    .slogan-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .slogan{
+            font-family: 'Nunito Sans', sans-serif;
+            font-size:  3rem;
+            font-weight: 100;
+            width:500px;
+            color: rgb(75, 75, 75);
+            text-transform: uppercase;
+            text-align: center;
+            margin: 20px;
+        }
+        
+    }
+    }
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .flex-row-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .st-text{
+        width: 500px;
+        font-size: 1.3em;
+    }
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:  6rem;
+        height: 6rem ;
+        border-radius: 100px;
+        background-color:#7600a9 ;
+        color: whitesmoke ;
+        font-size: 2.2em;
+        font-family: 'Fuzzy Bubbles', cursive;
+        margin-bottom: 20px;
+    }
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: .5px rgb(107, 107, 107) solid ;
+    border-radius: 100px;
+    margin-top: 10px;
+    width: 200px;
+    input{
+        outline: none;
+        border: none;
+    }
+}
+
+
+@keyframes animateLeaf {
+    from{
+        transform: rotateZ(-20deg)
+    }
+    to{
+        transform: rotateZ(10deg)
+    }
+}
